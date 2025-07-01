@@ -30,6 +30,10 @@ A aplicação subirá na porta 8080
 ```
 curl --location 'http://localhost:8080/api/v1/perfect-numbers/496'
 ```
-2. JUnit
+2. Swagger
+```
+http://localhost:8080/swagger-ui/index.html#/PerfectNumber/perfectNumber
+```
+3. JUnit
 - Executar via IDE ou Maven
    io.github.alberes.perfectnumber.services.PerfectNumberServiceTests
