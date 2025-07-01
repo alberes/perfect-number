@@ -11,6 +11,9 @@ Para mais informações acesse o link [Perfect Number](https://en.wikipedia.org/
 
 ### Como Executar
 1. Clone o repositório: git clone https://github.com/alberes/perfect-number
+```
+git clone https://github.com/alberes/perfect-number.git
+```
 2. Executar o projeto
 - Abrir o terminal na raiz do projeto [SUB_DIRETORIOS]/perfect-number e exeuctar o comando abaixo para gerar o pacote.
 ```
@@ -25,7 +28,7 @@ A aplicação subirá na porta 8080
 ### Testes
 1. Usar o comando cURL, navegador ou Postman
 ```
-curl --location 'http://localhost:8080/perfect-numbers/496'
+curl --location 'http://localhost:8080/api/v1/perfect-numbers/496'
 ```
 2. JUnit
 - Executar via IDE ou Maven

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/perfect-numbers")
+@RequestMapping("/api/v1/perfect-numbers")
 @Tag(name = "PerfectNumber")
 public class PerfectNumberController {
 
