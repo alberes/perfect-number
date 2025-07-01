@@ -3,7 +3,7 @@ Este projeto é responsável por verificar se um número positivo é perfeito.
 Para mais informações acesse o link [Perfect Number](https://en.wikipedia.org/wiki/Perfect_number)
 
 ### Tecnologias Utilizadas
-* Frameworks: [Spring Boot 3.4.5](https://start.spring.io/)
+* Frameworks: [Spring Boot 3.5.3](https://start.spring.io/)
 * JDK: 17
 * IDE: [Intellij](https://www.jetbrains.com/idea/)
 * Gerenciado de dependencias: [Apache Maven 3.9.9](https://maven.apache.org/)
