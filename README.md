@@ -46,6 +46,9 @@ curl --location 'http://localhost:8080/api/v1/perfect-numbers' \
 ```
 http://localhost:8080/swagger-ui/index.html#/PerfectNumber/perfectNumber
 ```
+```
+http://localhost:8080/swagger-ui/index.html#/PerfectNumber/perfectNumbers"
+```
 3. JUnit
 - Executar via IDE ou Maven
    io.github.alberes.perfectnumber.services.PerfectNumberServiceTests
