@@ -4,6 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(name = "PerfectNumber")
 public record PerfectNumberResponseDto(
+        int number,
         boolean perfectNumber
 ) {
 }

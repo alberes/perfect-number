@@ -30,6 +30,18 @@ A aplicação subirá na porta 8080
 ```
 curl --location 'http://localhost:8080/api/v1/perfect-numbers/496'
 ```
+```
+curl --location 'http://localhost:8080/api/v1/perfect-numbers' \
+--header 'Content-Type: application/json' \
+--data '{"perfectNumbers":[
+1,
+2,
+3,
+4,
+5,
+6
+]}'
+```
 2. Swagger
 ```
 http://localhost:8080/swagger-ui/index.html#/PerfectNumber/perfectNumber

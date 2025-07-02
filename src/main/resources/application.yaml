@@ -3,4 +3,4 @@ spring:
     name: perfect-number
 logging:
   level:
-    root: warn
+    root: debug
